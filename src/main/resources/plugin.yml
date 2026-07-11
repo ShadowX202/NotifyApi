@@ -1,0 +1,5 @@
+name: Notify
+version: '1.0-(SNAP)SHOT'
+main: de.ShadowX202.notify.Notify
+api-version: '1.21'
+authors: [ Shadow202 ]

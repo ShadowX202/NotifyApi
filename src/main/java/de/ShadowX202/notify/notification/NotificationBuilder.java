@@ -1,0 +1,17 @@
+package de.ShadowX202.notify.notification;
+
+public interface NotificationBuilder {
+
+    class MissingArgumentException extends RuntimeException {}
+
+    NotificationBuilder setTitle(String title);
+    NotificationBuilder setMessage(String message);
+    NotificationBuilder setType(String type);
+
+    NotificationBuilder setLevel(NotificationLevel level);
+    NotificationBuilder setSensitive(boolean sensitive);
+
+    Notification build() throws MissingArgumentException;
+
+
+}
