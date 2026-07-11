@@ -4,6 +4,7 @@ import de.ShadowX202.notify.notification.Notification;
 import org.bukkit.OfflinePlayer;
 
 import java.util.List;
+import java.util.Set;
 
 public interface NotificationManager {
     void sendNotification(List<OfflinePlayer> players, Notification notification);
@@ -12,5 +13,7 @@ public interface NotificationManager {
     void registerNotificationSubscriber(NotificationSubscriber notificationSubscriber);
     void unregisterNotificationSubscriber(NotificationSubscriber notificationSubscriber);
 
-    NotificationSetting getNotificationSetting(OfflinePlayer player);
+    Set<NotificationSubscriber> getNotificationSubscribers();
+
+    NotificationSettings getNotificationSettings(OfflinePlayer player);
 }
