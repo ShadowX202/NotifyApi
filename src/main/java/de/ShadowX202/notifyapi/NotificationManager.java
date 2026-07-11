@@ -1,6 +1,7 @@
 package de.ShadowX202.notifyapi;
 
 import de.ShadowX202.notifyapi.notification.Notification;
+import de.ShadowX202.notifyapi.notification.NotificationBuilder;
 import org.bukkit.OfflinePlayer;
 
 import java.util.List;
@@ -16,4 +17,6 @@ public interface NotificationManager {
     Set<NotificationSubscriber> getNotificationSubscribers();
 
     NotificationSettings getNotificationSettings(OfflinePlayer player);
+
+    NotificationBuilder getNotificationBuilder();
 }
