@@ -1,6 +1,6 @@
-package de.ShadowX202.notify;
+package de.ShadowX202.notifyapi;
 
-import de.ShadowX202.notify.notification.Notification;
+import de.ShadowX202.notifyapi.notification.Notification;
 import org.bukkit.OfflinePlayer;
 
 public interface NotificationSubscriber {

@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>de.ShadowX202</groupId>
-    <artifactId>Notify</artifactId>
+    <artifactId>NotifyAPI</artifactId>
     <version>1.0-(SNAP)SHOT</version>
     <packaging>jar</packaging>
 
-    <name>Notify</name>
+    <name>NotifyAPI</name>
 
     <properties>
         <java.version>21</java.version>

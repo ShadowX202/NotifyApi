@@ -1,4 +1,4 @@
-package de.ShadowX202.notify.notification;
+package de.ShadowX202.notifyapi.notification;
 
 public interface NotificationBuilder {
 

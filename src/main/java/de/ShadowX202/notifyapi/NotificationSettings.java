@@ -1,6 +1,6 @@
-package de.ShadowX202.notify;
+package de.ShadowX202.notifyapi;
 
-import de.ShadowX202.notify.notification.NotificationLevel;
+import de.ShadowX202.notifyapi.notification.NotificationLevel;
 
 public interface NotificationSettings {
 
