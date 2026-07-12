@@ -5,7 +5,5 @@ public interface Notification {
     String getMessage();
     String getType();
 
-    NotificationLevel getLevel();
-
     boolean isSensitive();
 }

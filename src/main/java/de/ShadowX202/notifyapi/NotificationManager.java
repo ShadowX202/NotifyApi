@@ -19,4 +19,7 @@ public interface NotificationManager {
     NotificationSettings getNotificationSettings(OfflinePlayer player);
 
     NotificationBuilder getNotificationBuilder();
+
+    List<String> getNotificationTypes();
+    void registerNotificationType(String type);
 }

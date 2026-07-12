@@ -8,7 +8,6 @@ public interface NotificationBuilder {
     NotificationBuilder setMessage(String message);
     NotificationBuilder setType(String type);
 
-    NotificationBuilder setLevel(NotificationLevel level);
     NotificationBuilder setSensitive(boolean sensitive);
 
     Notification build() throws MissingArgumentException;
